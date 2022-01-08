@@ -8,7 +8,7 @@ import { encryptState, decryptState } from '../utils/state';
 
 dotenv.config();
 
-const CLIENT_SECRETS_FILE = '../../../client_secret.json';
+const CLIENT_SECRETS_FILE = '../../client_secret.json';
 const SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 
 const { 

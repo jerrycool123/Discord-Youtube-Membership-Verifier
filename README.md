@@ -2,22 +2,20 @@
 
 ## Required settings
 
-- Download Google OAuth 2.0 client credentials, rename it to `client_secret.json` and place it under `nodejs` directory.
-- Create `./nodejs/.env` and put environment variables into it. You can refer to `./nodejs/.env.defaults`.
-- Provide `key.pem` and `cert.pem` under `./nodejs/src/ssl` for HTTPS support.
+- Download Google OAuth 2.0 client credentials, rename it to `./client_secret.json`.
+- Create `./.env` and put environment variables into it. You can refer to `./.env.defaults`.
+- Provide `key.pem` and `cert.pem` under `./ssl` directory for HTTPS support.
 
 ## Install
 
 - You should have `yarn` package manager.
 
 ```
-cd nodejs
 yarn install
 ```
 
 ## Usage
 
 ```
-cd nodejs
 yarn start
 ```
