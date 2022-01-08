@@ -1,0 +1,11 @@
+{
+  "name": "Discord-Youtube-Membership-Verifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd nodejs && yarn start"
+  },
+  "repository": "git@github.com:jerrycool123/Discord-Youtube-Membership-Verifier.git",
+  "author": "jerrycool123 <jerrycool71534@gmail.com>",
+  "license": "MIT"
+}

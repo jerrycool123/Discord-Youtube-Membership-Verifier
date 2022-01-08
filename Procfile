@@ -1,1 +1,1 @@
-web: cd nodejs && yarn start
+web: yarn start
