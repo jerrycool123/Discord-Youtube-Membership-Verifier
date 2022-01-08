@@ -1,3 +1,5 @@
+import 'core-js/stable';
+import 'regenerator-runtime';
 import express from 'express';
 import dotenv from 'dotenv-defaults';
 import fs from 'fs';
@@ -11,8 +13,8 @@ dotenv.config();
 const app = express();
 const PORT = process.env.SERVER_PORT || 8080
 const httpsCredentials = {
-  key: fs.readFileSync(__dirname + '/' + './ssl/key.pem'),
-  cert: fs.readFileSync(__dirname + '/' + './ssl/cert.pem')
+  key: fs.readFileSync(__dirname + '/../ssl/key.pem'),
+  cert: fs.readFileSync(__dirname + '/../ssl/cert.pem')
 };
 
 app.get('/oauth2callback', async(req, res) => {

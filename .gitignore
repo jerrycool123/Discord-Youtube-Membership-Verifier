@@ -1,0 +1,5 @@
+build/
+node_modules/
+.env
+client_secret.json
+*.pem
